@@ -1,0 +1,26 @@
+/*you could change fond
+$baseFontFamily: Oxygen;
+@import url(http;//fonts.googleapis.com/css?family=Oxygen);*/
+$btnPrimaryBackgroundHighlight: red;
+$navbarBackgroundHighLight: white;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.navbar-inner{
+	@include box-shadow(none !important);
+	border: 0;
+}
+
+.footer {
+    margin-top: 50px;
+    color: $red;
+    a {
+    	color: $green;
+    }
+}
